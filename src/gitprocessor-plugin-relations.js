@@ -12,7 +12,7 @@ module.exports = function(commits) {
 		commit.parenthashes.forEach(function(hash) {
 			var parentCommit = commits[hash];
 			if(parentCommit != undefined) {
-				commit.parents.push(parentCommit);
+//				commit.parents.push(parentCommit);
 				parentCommit.children.push(hash);		
 			}
 		});

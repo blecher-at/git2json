@@ -7,7 +7,6 @@ module.exports = function(commits, plugins) {
 
   Object.keys(commits).forEach(function(hash) {
                 var commit = commits[hash];
-		commit.parents = "NOSHOW";
 	})
 };
 
