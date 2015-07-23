@@ -18,7 +18,7 @@ module.exports = {
 	parserplugins : defaultParserplugins,
 	processorplugins : defaultProcessorplugins, 
 
-	default : function(callback, maxCommits) {
+	run : function(callback, maxCommits) {
 		var parserplugins = this.parserplugins;
 		var processorplugins = this.processorplugins;
 		var loggerCallback = function(text) {

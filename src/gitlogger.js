@@ -5,7 +5,8 @@ if(module == undefined) { var exports = {}}
 exports.retrieve = function(limit, callback) { 
 	var exec = require('child_process').exec;
 	var git_params = {
-	'commithash': 'H', 
+	'sha': 'H',
+	'ssha': 'h', // abbreviated hash
 	'parenthashes': 'P',
 	'authorname': 'an',
 	'authoremail': 'ae',
@@ -15,7 +16,7 @@ exports.retrieve = function(limit, callback) {
 	'committerdate': 'ct',
 	'encoding': 'e',
 	'subject': 's',
-	'sanitizedsubject': 'f',
+	'ssubject': 'f',
 	'body': 'b',
 	'refnames': 'd'
 	};
