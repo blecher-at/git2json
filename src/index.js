@@ -28,7 +28,7 @@ module.exports = {
 			callback(commits);
 		}
 
-		gitlogger.retrieve(maxCommits || 100, loggerCallback)
+		gitlogger.retrieve(maxCommits || 300, loggerCallback)
 	}
 }
 
