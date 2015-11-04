@@ -1,0 +1,14 @@
+{ 
+"name":"git2json", 
+"version":"0.0.1", 
+"description": "convert git log to json",
+"author": "stephan blecher <stephan@blecher.at>",
+"keywords": [ "git", "soap" ],
+"bin": { "git-json": "src/main/cli.js" },
+"main": "src/index.js",
+"scripts": {
+	"test": "src/test/index.js",
+	"start": "src/main/server.js" },
+"preferGlobal": true, 
+"private": true
+}
