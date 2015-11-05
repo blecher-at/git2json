@@ -7,6 +7,9 @@
 
 - check out https://github.com/blecher-at/gitline/ for the intended usecase 
 
-
- 
-
+Installation
+----------
+- install node.js 
+- clone git2json repo
+- go to the git2json directory and run "npm link"
+- you can now use it by typing "git json" in any repo directory.
