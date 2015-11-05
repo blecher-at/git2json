@@ -22,7 +22,7 @@ function assignHeads(commits, commit) {
 		parents1.forEach(function(parentHash) {
 			var p = commits[parentHash]	
 			if(p != undefined) {
-				p.inHeads.push(commit.commithash)
+				p.inHeads.push(commit.sha)
 				// add all grandparents to the newparents
 				newParents = newParents.concat(p.parenthashes)
 			}
