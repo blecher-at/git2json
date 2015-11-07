@@ -1,4 +1,4 @@
-# gitline
+# git2json
 
 - This is my quick but very clean approach to get git logs as JSON.
 - Existing solutions all break when special characters are in commit messages or author names, this one does not. 
