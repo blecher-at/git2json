@@ -6,9 +6,9 @@
 "keywords": [ "git", "soap" ],
 "bin": { "git-json": "src/main/cli.js" },
 "main": "src/index.js",
-"scripts": {
-	"test": "src/test/index.js",
-	"start": "src/main/server.js" },
+"scripts": { 
+    "test": "node src/test/smoke.js",
+    "start": "node src/main/cli.js" },
 "preferGlobal": true, 
 "private": true
 }
